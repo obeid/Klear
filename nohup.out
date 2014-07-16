@@ -1,0 +1,130 @@
+[19:23:12] Using gulpfile ~/Klear/gulpfile.js
+[19:23:12] Starting 'connect'...
+[19:23:12] Finished 'connect' after 52 ms
+[19:23:12] Starting 'styles'...
+Started connect web server on http://localhost:9000
+[19:23:12] Finished 'styles' after 617 ms
+[19:23:12] Starting 'serve'...
+[19:23:12] Finished 'serve' after 2.21 ms
+[19:23:12] Starting 'watch'...
+[19:23:12] Finished 'watch' after 146 ms
+[19:23:12] Live reload server listening on: 35729
+[19:25:56] index.html was reloaded.
+[19:25:57] index.html was reloaded.
+[19:26:30] index.html was reloaded.
+[19:26:31] index.html was reloaded.
+[19:30:08] Starting 'styles'...
+[19:30:09] Finished 'styles' after 434 ms
+[19:30:09] main.css was reloaded.
+[19:30:10] Starting 'styles'...
+[19:30:10] Finished 'styles' after 422 ms
+[19:30:10] main.css was reloaded.
+[19:30:37] Starting 'styles'...
+[19:30:38] Finished 'styles' after 423 ms
+[19:30:38] main.css was reloaded.
+[19:30:38] Starting 'styles'...
+[19:30:39] Finished 'styles' after 427 ms
+[19:30:39] main.css was reloaded.
+[19:31:59] Starting 'styles'...
+[19:32:00] Finished 'styles' after 402 ms
+[19:32:00] main.css was reloaded.
+[19:32:00] Starting 'styles'...
+[19:32:01] Finished 'styles' after 413 ms
+[19:32:01] main.css was reloaded.
+[19:32:46] index.html was reloaded.
+[19:32:48] index.html was reloaded.
+[19:33:05] index.html was reloaded.
+[19:33:06] index.html was reloaded.
+[19:34:09] index.html was reloaded.
+[19:34:10] index.html was reloaded.
+[19:34:38] Starting 'styles'...
+[19:34:38] Finished 'styles' after 405 ms
+[19:34:38] main.css was reloaded.
+[19:34:39] Starting 'styles'...
+[19:34:39] Finished 'styles' after 459 ms
+[19:34:40] main.css was reloaded.
+[19:36:09] Starting 'styles'...
+[19:36:10] Finished 'styles' after 406 ms
+[19:36:10] main.css was reloaded.
+[19:36:10] Starting 'styles'...
+[19:36:11] Finished 'styles' after 441 ms
+[19:36:11] main.css was reloaded.
+[19:36:47] Starting 'styles'...
+[19:36:48] Finished 'styles' after 407 ms
+[19:36:48] main.css was reloaded.
+[19:36:49] Starting 'styles'...
+[19:36:49] Finished 'styles' after 428 ms
+[19:36:49] main.css was reloaded.
+[19:37:05] Starting 'styles'...
+[19:37:06] Finished 'styles' after 396 ms
+[19:37:06] main.css was reloaded.
+[19:37:07] Starting 'styles'...
+[19:37:07] Finished 'styles' after 430 ms
+[19:37:07] main.css was reloaded.
+[19:38:37] Starting 'styles'...
+[19:38:37] [gulp-ruby-sass] 
+Syntax error: Invalid CSS after ".delete:": expected pseudoclass or pseudoelement, was " hover {"
+        on line 41 of /Users/obeid/Klear/app/styles/main.scss
+  
+[19:38:37] Plumber found unhandled error: Error in plugin 'gulp-ruby-sass'
+
+Syntax error: Invalid CSS after ".delete:": expected pseudoclass or pseudoelement, was " hover {"
+        on line 41 of /Users/obeid/Klear/app/styles/main.scss
+[19:38:37] Finished 'styles' after 186 ms
+[19:38:38] Starting 'styles'...
+[19:38:38] [gulp-ruby-sass] 
+Syntax error: Invalid CSS after ".delete:": expected pseudoclass or pseudoelement, was " hover {"
+        on line 41 of /Users/obeid/Klear/app/styles/main.scss
+  
+[19:38:38] Plumber found unhandled error: Error in plugin 'gulp-ruby-sass'
+
+Syntax error: Invalid CSS after ".delete:": expected pseudoclass or pseudoelement, was " hover {"
+        on line 41 of /Users/obeid/Klear/app/styles/main.scss
+[19:38:38] Finished 'styles' after 192 ms
+[19:38:54] Starting 'styles'...
+[19:38:54] Finished 'styles' after 398 ms
+[19:38:54] main.css was reloaded.
+[19:42:34] index.html was reloaded.
+[19:42:35] index.html was reloaded.
+[19:53:19] main.js was reloaded.
+[19:53:28] main.js was reloaded.
+[19:53:29] main.js was reloaded.
+[19:54:59] main.js was reloaded.
+[19:56:54] main.js was reloaded.
+[19:56:55] main.js was reloaded.
+[19:59:06] main.js was reloaded.
+[19:59:07] main.js was reloaded.
+[19:59:32] main.js was reloaded.
+[20:03:37] main.js was reloaded.
+[20:03:39] main.js was reloaded.
+[20:04:01] main.js was reloaded.
+[20:04:02] main.js was reloaded.
+[20:04:54] main.js was reloaded.
+[20:04:55] main.js was reloaded.
+[20:07:14] index.html was reloaded.
+[20:07:15] index.html was reloaded.
+[20:07:44] index.html was reloaded.
+[20:07:45] index.html was reloaded.
+[20:10:12] main.js was reloaded.
+[20:10:13] main.js was reloaded.
+[20:15:02] main.js was reloaded.
+[20:15:03] main.js was reloaded.
+[20:18:04] main.js was reloaded.
+[20:18:05] main.js was reloaded.
+[20:18:59] main.js was reloaded.
+[20:19:00] main.js was reloaded.
+[20:21:23] main.js was reloaded.
+[20:21:24] main.js was reloaded.
+[20:28:04] main.js was reloaded.
+[20:28:05] main.js was reloaded.
+[20:28:27] main.js was reloaded.
+[20:28:28] main.js was reloaded.
+[20:41:12] main.js was reloaded.
+[20:41:13] main.js was reloaded.
+[20:42:09] Starting 'wiredep'...
+[20:42:09] Finished 'wiredep' after 269 ms
+[20:42:09] 404.html was reloaded.
+[20:42:09] index.html was reloaded.
+[20:42:09] Starting 'styles'...
+[20:42:10] Finished 'styles' after 792 ms
+[20:42:10] main.css was reloaded.

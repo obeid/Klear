@@ -1,0 +1,160 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Colors
+
+$top: red; // $top: #ffbe25;
+$bot: lighten(adjust-hue($top, 60deg), 10%); // $bot: #ff0503;
+
+$c10: mix($top, $bot, 10%);
+$c09: mix($top, $bot, 20%);
+$c08: mix($top, $bot, 30%);
+$c07: mix($top, $bot, 40%);
+$c06: mix($top, $bot, 50%);
+$c05: mix($top, $bot, 60%);
+$c04: mix($top, $bot, 70%);
+$c03: mix($top, $bot, 80%);
+$c02: mix($top, $bot, 90%);
+$c01: mix($top, $bot, 100%);
+
+.toggle-all {
+  margin-right: 1.5em;
+  text-decoration: none;
+}
+.check {
+  margin-right: 1.5em;
+  color: black;
+  text-decoration: none;
+  opacity: 0.1;
+}
+
+.delete {
+  color: white;
+  float: right;
+  position: relative;
+  right: 0;
+  display: none;
+  text-decoration: none;
+}
+
+* {
+  transition: 0.35s ease-in-out;
+}
+
+body {
+  background: #fafafa;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #333;
+  margin: 0;
+  font-size: 1.3em;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 600px;
+  margin: auto;
+  // position: absolute;
+  // top: 0; left: 0; bottom: 0; right: 0;
+
+  li:hover > .delete {
+    display: inline;
+  }
+
+  li:nth-child(1) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c01 20%, $c01 65%, desaturate($c01, 2%) 99%, $c01 100%);
+
+  input[type=text] {
+    border: 0;
+    width: 450px;
+    padding: 0px;
+    background-color: rgba(255,255,255,0.0);
+    margin: 0;
+    outline:none;
+
+  }
+
+}
+
+
+
+
+  li:nth-child(2) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c02 20%, $c02 65%, desaturate($c02, 2%) 99%, $c02 100%);
+  }
+  li:nth-child(3) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c03 20%, $c03 65%, desaturate($c03, 2%) 99%, $c03 100%);
+  }
+  li:nth-child(4) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c04 20%, $c04 65%, desaturate($c04, 2%) 99%, $c04 100%);
+  }
+  li:nth-child(5) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c05 20%, $c05 65%, desaturate($c05, 2%) 99%, $c05 100%);
+  }
+  li:nth-child(6) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c06 20%, $c06 65%, desaturate($c06, 2%) 99%, $c06 100%);
+  }
+  li:nth-child(7) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c07 20%, $c07 65%, desaturate($c07, 2%) 99%, $c07 100%);
+  }
+  li:nth-child(8) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c08 20%, $c08 65%, desaturate($c08, 2%) 99%, $c08 100%);
+  }
+  li:nth-child(9) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c09 20%, $c09 65%, desaturate($c09, 2%) 99%, $c09 100%);
+  }
+  li:nth-child(10) {
+    background-color: $c01;
+    list-style: none;
+    padding: 2em;
+    @include linear-gradient(to bottom, $c10 20%, $c10 65%, desaturate($c10, 2%) 99%, $c10 100%);
+  }
+
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  min-width: 600px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
